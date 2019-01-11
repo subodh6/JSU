@@ -2,7 +2,7 @@ node('master')
 {
     stage('ContinuousDownload-ANUSHA')
     {
-       git 'https://github.com/subodh6/subo.git'
+       git 'https://github.com/subodh6/JSU.git'
     }
     stage('ContinuousBuild')
     {
